@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ElevatorAnimations
+  m_Name: ScannerAnimator
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Parameter
@@ -114,7 +114,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DoorOpen
+  m_Name: BoxScanBegin
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -128,7 +128,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 76b5e59a9099cec49b9616a9058a8e46, type: 2}
+  m_Motion: {fileID: 7400000, guid: 56c14c5a23a6fef4ab5f04b7b8e5ba4e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -166,7 +166,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DoorClosed
+  m_Name: BoxScanEnd
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -196,20 +196,20 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102072846381416666}
-    m_Position: {x: 180, y: -192, z: 0}
+    m_Position: {x: 156, y: -204, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102796327389832220}
-    m_Position: {x: -204, y: -192, z: 0}
+    m_Position: {x: -228, y: -204, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102664767902897782}
-    m_Position: {x: -24, y: -36, z: 0}
+    m_Position: {x: -48, y: -24, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 216, y: 36, z: 0}
-  m_EntryPosition: {x: -12, y: 120, z: 0}
-  m_ExitPosition: {x: -180, y: 36, z: 0}
+  m_EntryPosition: {x: 216, y: 0, z: 0}
+  m_ExitPosition: {x: -300, y: 0, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 1102664767902897782}
