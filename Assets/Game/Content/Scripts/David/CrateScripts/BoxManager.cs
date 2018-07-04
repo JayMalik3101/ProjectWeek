@@ -15,7 +15,7 @@ public class BoxManager : MonoBehaviour {
         }
     }
 
-    private void CheckWhatPassed()
+    public void CheckWhatPassed()
     {
         for (int i = 0; i < m_IsIllegal.Count; i++)
         {
@@ -62,10 +62,5 @@ public class BoxManager : MonoBehaviour {
                 m_IsIllegal[itemInList] = false;
             }
         }
-    }
-
-    private void OnDestroy()
-    {
-        CheckWhatPassed();
     }
 }

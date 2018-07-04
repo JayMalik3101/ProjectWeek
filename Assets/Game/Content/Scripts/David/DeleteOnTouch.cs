@@ -3,15 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DeleteOnTouch : MonoBehaviour {
-
+    [SerializeField] BoxManager m_BoxManager;
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
-        Destroy(other.gameObject);
+        m_BoxManager.CheckWhatPassed();
     }
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log(other.name + "Stay");
-        Destroy(other.gameObject);
+        m_BoxManager.CheckWhatPassed();
     }
 }
