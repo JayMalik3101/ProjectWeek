@@ -125,7 +125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SpawnPoint: {fileID: 4013647958613878}
   m_SpawnTimer: 1
-  m_Platform: {fileID: 4088404288182872, guid: ae78f3e5374e9fa4ab0f31acaf8adc26, type: 2}
+  m_Platform: {fileID: 54447664469644946, guid: ae78f3e5374e9fa4ab0f31acaf8adc26,
+    type: 2}
 --- !u!114 &114802113770931518
 MonoBehaviour:
   m_ObjectHideFlags: 1
