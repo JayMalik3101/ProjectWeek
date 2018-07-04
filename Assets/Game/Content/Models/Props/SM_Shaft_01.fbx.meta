@@ -4,11 +4,27 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Conveyar
+    100004: Conveyor
+    100006: Shaft
+    100008: Sides
     400000: //RootNode
+    400002: Conveyar
+    400004: Conveyor
+    400006: Shaft
+    400008: Sides
     2100000: lambert1
     2300000: //RootNode
+    2300002: Conveyar
+    2300004: Shaft
+    2300006: Sides
     3300000: //RootNode
+    3300002: Conveyar
+    3300004: Shaft
+    3300006: Sides
     4300000: Shaft
+    4300002: Sides
+    4300004: Conveyar
   externalObjects: {}
   materials:
     importMaterials: 0
