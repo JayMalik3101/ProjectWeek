@@ -1,22 +1,14 @@
 fileFormatVersion: 2
-guid: 2bb1ae60f9874104faf739080270c611
+guid: 25fbc31894d30b24f9dc966b5ad3adb9
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: SM_Crate_01 1
-    100004: SM_CrateLid_01
     400000: //RootNode
-    400002: SM_Crate_01 1
-    400004: SM_CrateLid_01
-    2100000: lambert2
-    2100002: lambert3
-    2300000: SM_Crate_01 1
-    2300002: SM_CrateLid_01
-    3300000: SM_Crate_01 1
-    3300002: SM_CrateLid_01
-    4300000: SM_Crate_01
-    4300002: SM_CrateLid_01
+    2100000: lambert1
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Shaft
   externalObjects: {}
   materials:
     importMaterials: 0
