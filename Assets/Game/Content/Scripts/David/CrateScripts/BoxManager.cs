@@ -3,14 +3,5 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BoxManager : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    [SerializeField] private List<GameObject> m_ItemsInCrate;
 }
