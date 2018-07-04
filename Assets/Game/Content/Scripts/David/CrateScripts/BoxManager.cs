@@ -8,7 +8,9 @@ public class BoxManager : MonoBehaviour {
     private List<bool> m_IsIllegal;
     private List<bool> m_ItemPassed;
     private void Start()
-    {
+    { 
+        m_IsIllegal = new List<bool>();
+        m_ItemPassed = new List<bool>();
         for (int i = 0; i < m_ItemsInCrate.Count; i++)
         {
             CheckIfIllegal(m_ItemsInCrate[i], i);
@@ -21,11 +23,11 @@ public class BoxManager : MonoBehaviour {
         {
             if(m_ItemsInCrate[i] != null)
             {
-                m_ItemPassed[i] = true;
+                m_ItemPassed.Add(true);
             }
             else
             {
-                m_ItemPassed[i] = false;
+                m_ItemPassed.Add(false);
             }
         }
 
@@ -33,7 +35,11 @@ public class BoxManager : MonoBehaviour {
         {
             if(m_IsIllegal[i] == true && m_ItemPassed[i] == true)
             {
-                Debug.Log(m_ItemsInCrate[i].name + "Caused 23 deaths in France");
+                Debug.Log(m_ItemsInCrate[i].name + " Caused 23 deaths in France");
+            }
+            else
+            {
+                Debug.Log("Great job you didnt indirectly participate at murdering people !");
             }
         }
     }
@@ -44,22 +50,22 @@ public class BoxManager : MonoBehaviour {
         {
             if (currentItem.name == "M4" || currentItem.name == "Pistol" || currentItem.name == "Revolver" || currentItem.name == "AK-47" || currentItem.name == "Bomb")
             {
-                m_IsIllegal[itemInList] = true;
+                m_IsIllegal.Add(true);
             }
             else
             {
-                m_IsIllegal[itemInList] = false;
+                m_IsIllegal.Add(false);
             }
         }
         else
         {
             if(currentItem.name == "M4" || currentItem.name == "Pistol" || currentItem.name == "Revolver" || currentItem.name == "AK-47" || currentItem.name == "Bomb")
             {
-                m_IsIllegal[itemInList] = true;
+                m_IsIllegal.Add(true);
             }
             else
             {
-                m_IsIllegal[itemInList] = false;
+                m_IsIllegal.Add(false);
             }
         }
     }

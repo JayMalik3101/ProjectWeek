@@ -24,6 +24,7 @@ public class GlowOnHover : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             m_ObjectMesh.material = m_ClickMaterial;
+            Destroy(gameObject);
         }
     }
 
