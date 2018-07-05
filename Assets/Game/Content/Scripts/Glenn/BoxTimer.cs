@@ -9,7 +9,7 @@ public class BoxTimer : MonoBehaviour
     public GameObject m_NewsPaper;                                           // Newspaper Prefab kunnen aangeven
     private void Start()
     {
-        StartCoroutine(SpawnPaper());                                        // Start de Timer
+        StartCoroutine(SpawnPaper());                                        // Start de Timer b
     }
     private IEnumerator SpawnPaper()
     {
