@@ -90,8 +90,14 @@ public class BoxManager : MonoBehaviour {
                 m_IsIllegal.Add(false);
             }
         }
+    }
 
-        
+    public void FastForward()
+    {
+        if(m_CurrentTime != 15)
+        {
+            m_CurrentTime = 0.1f;
+        }
     }
 
     private void StartTimer()
