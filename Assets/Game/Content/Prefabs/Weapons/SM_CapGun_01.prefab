@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33564384448463992}
   - component: {fileID: 23927481954207590}
   m_Layer: 0
-  m_Name: cap gun
+  m_Name: SM_CapGun_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

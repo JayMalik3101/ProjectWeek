@@ -67,7 +67,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4326846870714418}
   m_Layer: 0
-  m_Name: borst melk flesje
+  m_Name: SM_BreastMilk_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
