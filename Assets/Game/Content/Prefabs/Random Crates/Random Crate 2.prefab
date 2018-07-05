@@ -1413,7 +1413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CurrentCountry: 
   m_ItemsInCrate:
-  - {fileID: 1722160549108748}
+  - {fileID: 1864978520837322, guid: 2793e3a9618e2604ebaa29723e447c0c, type: 2}
   - {fileID: 1371619677734080}
   m_OriginalTime: 15
   m_CurrentTime: 0

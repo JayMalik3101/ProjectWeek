@@ -1093,11 +1093,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CurrentCountry: 
   m_ItemsInCrate:
-  - {fileID: 1198389741676528}
+  - {fileID: 1833468071256652, guid: 2ed8936c95bada54f961f557e10b0488, type: 2}
   - {fileID: 1783068395696436}
   - {fileID: 1518267525990602}
-  - {fileID: 1754771539381242}
-  - {fileID: 1940120401079316}
+  - {fileID: 1390832480310364, guid: 06d6d9a2f9e10e74bbb1e9bc7325de6c, type: 2}
+  - {fileID: 1621322423756188, guid: 173f1280f5a604f40ad15504ffdfda96, type: 2}
   - {fileID: 1887548584551172}
   m_OriginalTime: 15
   m_CurrentTime: 0

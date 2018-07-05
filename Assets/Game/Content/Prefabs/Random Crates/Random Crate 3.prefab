@@ -733,10 +733,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CurrentCountry: 
   m_ItemsInCrate:
-  - {fileID: 1988290099051626}
+  - {fileID: 1103278253083060, guid: cd2ddd9f8595b6c43a8a76d18305dedf, type: 2}
   - {fileID: 1347171044250000}
-  - {fileID: 1847077364155854}
-  - {fileID: 1440179611748054}
+  - {fileID: 1621322423756188, guid: 173f1280f5a604f40ad15504ffdfda96, type: 2}
+  - {fileID: 1007620476040478, guid: 3494ea0ec7c38d54894e710a22d6fc5e, type: 2}
   m_OriginalTime: 15
   m_CurrentTime: 0
   m_NewsPaper: {fileID: 1566265698665136, guid: 056b6169b3cd63340a8f398c0f8b12b7,
