@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33964306826931232}
   - component: {fileID: 23372814918743802}
   m_Layer: 0
-  m_Name: waterpistol
+  m_Name: SM_WaterPistol_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
