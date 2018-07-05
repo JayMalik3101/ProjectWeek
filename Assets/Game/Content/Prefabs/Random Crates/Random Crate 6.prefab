@@ -361,6 +361,8 @@ GameObject:
   - component: {fileID: 4368700743672024}
   - component: {fileID: 33806739255016194}
   - component: {fileID: 23827336481997058}
+  - component: {fileID: 65259712368164814}
+  - component: {fileID: 114389063139015390}
   m_Layer: 0
   m_Name: Bomb
   m_TagString: Untagged
@@ -1979,6 +1981,18 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 0c958d079f0ad0d4fa6762b7e4ba83b8, type: 3}
+--- !u!65 &65259712368164814
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1845688155786224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.22991782, y: 0.5460583, z: 0.20922618}
+  m_Center: {x: -0.01710637, y: 0.2730289, z: -0.002126809}
 --- !u!65 &65635534650686518
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -2132,7 +2146,8 @@ MonoBehaviour:
   - {fileID: 1449463451144710}
   m_OriginalTime: 15
   m_CurrentTime: 0
-  m_NewsPaper: {fileID: 0}
+  m_NewsPaper: {fileID: 1566265698665136, guid: 056b6169b3cd63340a8f398c0f8b12b7,
+    type: 2}
 --- !u!114 &114089685100068590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2204,6 +2219,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1753110522216074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c8ef4c28a28464b91049811f9d2c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HoverMaterial: {fileID: 2100000, guid: 26d92f3d95a526b47841a127d4839389, type: 2}
+  m_ClickMaterial: {fileID: 2100000, guid: 83d87c1b26efa3a488cc5e3f3409a481, type: 2}
+--- !u!114 &114389063139015390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1845688155786224}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80c8ef4c28a28464b91049811f9d2c77, type: 3}

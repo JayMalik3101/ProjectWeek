@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33964306826931232}
   - component: {fileID: 23372814918743802}
   - component: {fileID: 114888924614450790}
-  - component: {fileID: 64827851706276940}
   - component: {fileID: 54707836900868574}
+  - component: {fileID: 65045636632064758}
   m_Layer: 0
   m_Name: WaterGun
   m_TagString: Untagged
@@ -101,8 +101,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!64 &64827851706276940
-MeshCollider:
+--- !u!65 &65045636632064758
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -110,11 +110,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 478d090e5d4e77341a550a519f13a092, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.08367079, y: 0.05935951, z: 0.019485066}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114888924614450790
 MonoBehaviour:
   m_ObjectHideFlags: 1
