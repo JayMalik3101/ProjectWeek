@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 64874098838389644}
   - component: {fileID: 54677780828575074}
   m_Layer: 0
-  m_Name: SM_ScarH_01
+  m_Name: ScarH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 64634509969194414}
   - component: {fileID: 54279523417035196}
   m_Layer: 0
-  m_Name: SM_BreastMilk_01
+  m_Name: BreastMilkBottle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
