@@ -6,7 +6,7 @@ public class GManager : MonoBehaviour {
     [SerializeField] private List<GameObject> m_Crates;
     
     private Animator m_CurrentCrateAnimator;
-    private GameObject m_CurrentCrate;
+    public GameObject m_CurrentCrate;
     private bool m_StartTimer;
 
     // Use this for initialization
