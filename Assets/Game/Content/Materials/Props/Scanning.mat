@@ -65,7 +65,11 @@ Material:
     m_Floats:
     - Vector1_2469F023: 0.1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - Vector1_391E0329: 0.9
+=======
+    - Vector1_391E0329: 0
+>>>>>>> Stashed changes
 =======
     - Vector1_391E0329: 0
 >>>>>>> Stashed changes
