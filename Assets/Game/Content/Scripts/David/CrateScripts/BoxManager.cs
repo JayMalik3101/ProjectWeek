@@ -6,13 +6,16 @@ public class BoxManager : MonoBehaviour {
     [SerializeField] private string m_CurrentCountry;
     [SerializeField] private List<GameObject> m_ItemsInCrate;
     [SerializeField] private float m_OriginalTime;
+    [SerializeField] private float m_CurrentTime;
 
+    private Animator m_CameraAnimator;
     private Animator m_CrateAnimator;
-   [SerializeField] private float m_CurrentTime;
     private List<bool> m_IsIllegal;
     private List<bool> m_ItemPassed;
     private void Start()
     {
+        m_CameraAnimator = GameObject.Find("Main Camera").GetComponent<Animator>();
+        m_CameraAnimator.SetTrigger(null);
         m_CrateAnimator = GetComponent<Animator>();
         m_CurrentTime = m_OriginalTime;
         m_IsIllegal = new List<bool>();
@@ -26,7 +29,9 @@ public class BoxManager : MonoBehaviour {
     {
         if (m_CurrentTime <= 0)
         {
+            m_CameraAnimator.SetTrigger("Deactivate");
             m_CrateAnimator.SetTrigger("Deactivate");
+            m_CurrentTime = m_OriginalTime;
         }
         if (m_CurrentTime != m_OriginalTime)
         {
@@ -91,6 +96,7 @@ public class BoxManager : MonoBehaviour {
 
     private void StartTimer()
     {
+        m_CameraAnimator.SetTrigger("Activate");
         m_CurrentTime -= Time.deltaTime;
     }
 }
