@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33564384448463992}
   - component: {fileID: 23927481954207590}
   - component: {fileID: 114275897881584852}
-  - component: {fileID: 64800219505616510}
   - component: {fileID: 54611985292662536}
+  - component: {fileID: 65175613452560552}
   m_Layer: 0
   m_Name: CapGun
   m_TagString: Untagged
@@ -102,8 +102,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!64 &64800219505616510
-MeshCollider:
+--- !u!65 &65175613452560552
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -111,11 +111,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 9937825b5ad14f7408fd1922e1e771ca, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.01988747, y: 0.08578803, z: 0.13768749}
+  m_Center: {x: -0.000018039253, y: -0.030057875, z: -0.0014584512}
 --- !u!114 &114275897881584852
 MonoBehaviour:
   m_ObjectHideFlags: 1

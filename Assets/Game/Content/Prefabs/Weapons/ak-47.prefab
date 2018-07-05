@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33648750095614122}
   - component: {fileID: 23881033483692532}
   - component: {fileID: 114516271430164226}
-  - component: {fileID: 64862244804855408}
   - component: {fileID: 54032508341118758}
+  - component: {fileID: 65021708143995678}
   m_Layer: 0
   m_Name: ak-47
   m_TagString: Untagged
@@ -102,8 +102,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!64 &64862244804855408
-MeshCollider:
+--- !u!65 &65021708143995678
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -111,11 +111,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: e54689a712d045947acbd33794bfbed4, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.2253664, y: 0.05636762, z: 0.0108572375}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114516271430164226
 MonoBehaviour:
   m_ObjectHideFlags: 1

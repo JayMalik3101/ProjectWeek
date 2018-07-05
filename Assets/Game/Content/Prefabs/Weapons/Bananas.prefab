@@ -38,12 +38,21 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/Game/Content/Prefabs/Weapons/Bananas.prefab
   - component: {fileID: 4477658095312130}
   - component: {fileID: 33290800057947046}
   - component: {fileID: 23629687028571884}
   - component: {fileID: 114656155780034674}
   - component: {fileID: 54594720138487608}
   - component: {fileID: 64326336521954656}
+=======
+  - component: {fileID: 4005952754207656}
+  - component: {fileID: 33543078627536044}
+  - component: {fileID: 23579606800296696}
+  - component: {fileID: 114099975625038680}
+  - component: {fileID: 54437064048007944}
+  - component: {fileID: 65993133740262626}
+>>>>>>> master:Assets/Game/Content/Prefabs/Weapons/SM_Fruit_01.prefab
   m_Layer: 0
   m_Name: Banana (2)
   m_TagString: Untagged
@@ -58,7 +67,16 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/Game/Content/Prefabs/Weapons/Bananas.prefab
   - component: {fileID: 4619015584757652}
+=======
+  - component: {fileID: 4290064293364640}
+  - component: {fileID: 33163593272092404}
+  - component: {fileID: 23846158469222504}
+  - component: {fileID: 114238371700671660}
+  - component: {fileID: 54202507140020860}
+  - component: {fileID: 65377485847321316}
+>>>>>>> master:Assets/Game/Content/Prefabs/Weapons/SM_Fruit_01.prefab
   m_Layer: 0
   m_Name: Bananas
   m_TagString: Untagged
@@ -73,12 +91,21 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/Game/Content/Prefabs/Weapons/Bananas.prefab
   - component: {fileID: 4327508774229960}
   - component: {fileID: 33964450815130484}
   - component: {fileID: 23062647544134440}
   - component: {fileID: 114156369001220756}
   - component: {fileID: 54080624927348476}
   - component: {fileID: 64278847914019850}
+=======
+  - component: {fileID: 4807155194937580}
+  - component: {fileID: 33942084670295018}
+  - component: {fileID: 23164773650074742}
+  - component: {fileID: 114572679741268198}
+  - component: {fileID: 54491359331965188}
+  - component: {fileID: 65607092264905264}
+>>>>>>> master:Assets/Game/Content/Prefabs/Weapons/SM_Fruit_01.prefab
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -93,12 +120,21 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/Game/Content/Prefabs/Weapons/Bananas.prefab
   - component: {fileID: 4883101441523974}
   - component: {fileID: 33512202846351946}
   - component: {fileID: 23407778378411190}
   - component: {fileID: 114468121843589796}
   - component: {fileID: 54788301822649250}
   - component: {fileID: 64380965934425060}
+=======
+  - component: {fileID: 4860060563386560}
+  - component: {fileID: 33818991872023562}
+  - component: {fileID: 23216163667878858}
+  - component: {fileID: 114122498644591492}
+  - component: {fileID: 54348599489742102}
+  - component: {fileID: 65410943344345130}
+>>>>>>> master:Assets/Game/Content/Prefabs/Weapons/SM_Fruit_01.prefab
   m_Layer: 0
   m_Name: Banana (1)
   m_TagString: Untagged
@@ -494,6 +530,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+<<<<<<< HEAD:Assets/Game/Content/Prefabs/Weapons/Bananas.prefab
 --- !u!64 &64114795673129264
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -565,6 +602,57 @@ MeshCollider:
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: 0c958d079f0ad0d4fa6762b7e4ba83b8, type: 3}
 --- !u!114 &114156369001220756
+=======
+--- !u!65 &65377485847321316
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1556405588113254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65410943344345130
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1913560688487124}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.021396974, y: 0.01754789, z: 0.020836692}
+  m_Center: {x: 0.000042738393, y: 0.0012781755, z: 0.0001365603}
+--- !u!65 &65607092264905264
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1587885034677886}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.017701251, y: 0.026524989, z: 0.018085318}
+  m_Center: {x: -0.00010667741, y: 0.0028906753, z: 0.0009058835}
+--- !u!65 &65993133740262626
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1331278798797418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01697116, y: 0.01108519, z: 0.04434134}
+  m_Center: {x: -0.004382335, y: -0.0006200352, z: -0.0058653885}
+--- !u!114 &114099975625038680
+>>>>>>> master:Assets/Game/Content/Prefabs/Weapons/SM_Fruit_01.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
