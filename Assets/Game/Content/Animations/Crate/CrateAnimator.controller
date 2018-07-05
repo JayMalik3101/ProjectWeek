@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ElevatorAnimations
+  m_Name: CrateAnimator
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Parameter
@@ -114,7 +114,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DoorOpen
+  m_Name: CrateEntrance
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -128,7 +128,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 76b5e59a9099cec49b9616a9058a8e46, type: 2}
+  m_Motion: {fileID: 7400000, guid: f34441341d72bcc4d9c02f3e0c9f493d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -166,7 +166,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DoorClosed
+  m_Name: CrateExit
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -180,7 +180,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 16248f863eecbe04fa79c3ed3e45723b, type: 2}
+  m_Motion: {fileID: 7400000, guid: 42b476857b1f2e14ea276e41d29bef44, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
