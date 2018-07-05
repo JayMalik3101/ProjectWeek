@@ -2503,7 +2503,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Crates:
-  - {fileID: 1287273228092362, guid: e57e5271d2ce8594f9d8d7d3e6ee1919, type: 2}
+  - {fileID: 1502259739101496, guid: a52c5fedf70e9f64d97bd449fa03abff, type: 2}
+  - {fileID: 1405650059769982, guid: 65dd8e60deccd274dbe2e41a63be3346, type: 2}
+  - {fileID: 1781870466002350, guid: 2cc312a6f6c847546964d26aadb1e8d0, type: 2}
+  - {fileID: 1016071653559446, guid: a1ab1beb1483c2444b837fa74786cfba, type: 2}
+  - {fileID: 1098406239090306, guid: f22e03fad01d9d543913314e7626ca8d, type: 2}
+  - {fileID: 1191944038972224, guid: 0d89f3c2d0829824589b4ad2ddf4f9e2, type: 2}
   m_CurrentCrate: {fileID: 0}
 --- !u!4 &986728482
 Transform:
