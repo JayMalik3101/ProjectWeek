@@ -687,6 +687,8 @@ MonoBehaviour:
   - {fileID: 1771028573441872}
   m_OriginalTime: 15
   m_CurrentTime: 0
+  m_NewsPaper: {fileID: 1566265698665136, guid: 056b6169b3cd63340a8f398c0f8b12b7,
+    type: 2}
 --- !u!114 &114859323846919656
 MonoBehaviour:
   m_ObjectHideFlags: 1

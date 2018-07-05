@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 114192050617086568}
   - component: {fileID: 114580109384869336}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Newspaper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
