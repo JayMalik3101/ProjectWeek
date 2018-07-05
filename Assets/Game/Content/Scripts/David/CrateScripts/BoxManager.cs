@@ -5,10 +5,16 @@ using UnityEngine;
 public class BoxManager : MonoBehaviour {
     [SerializeField] private string m_CurrentCountry;
     [SerializeField] private List<GameObject> m_ItemsInCrate;
+    [SerializeField] private float m_OriginalTime;
+
+    private Animator m_CrateAnimator;
+   [SerializeField] private float m_CurrentTime;
     private List<bool> m_IsIllegal;
     private List<bool> m_ItemPassed;
     private void Start()
-    { 
+    {
+        m_CrateAnimator = GetComponent<Animator>();
+        m_CurrentTime = m_OriginalTime;
         m_IsIllegal = new List<bool>();
         m_ItemPassed = new List<bool>();
         for (int i = 0; i < m_ItemsInCrate.Count; i++)
@@ -16,7 +22,17 @@ public class BoxManager : MonoBehaviour {
             CheckIfIllegal(m_ItemsInCrate[i], i);
         }
     }
-
+    private void Update()
+    {
+        if (m_CurrentTime <= 0)
+        {
+            m_CrateAnimator.SetTrigger("Deactivate");
+        }
+        if (m_CurrentTime != m_OriginalTime)
+        {
+            m_CurrentTime -= Time.deltaTime;
+        }
+    }
     public void CheckWhatPassed()
     {
         for (int i = 0; i < m_IsIllegal.Count; i++)
@@ -68,5 +84,12 @@ public class BoxManager : MonoBehaviour {
                 m_IsIllegal.Add(false);
             }
         }
+
+        
+    }
+
+    private void StartTimer()
+    {
+        m_CurrentTime -= Time.deltaTime;
     }
 }
