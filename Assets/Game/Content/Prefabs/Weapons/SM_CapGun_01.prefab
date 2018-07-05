@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4088093597084574}
   - component: {fileID: 33564384448463992}
   - component: {fileID: 23927481954207590}
+  - component: {fileID: 114275897881584852}
   m_Layer: 0
   m_Name: SM_CapGun_01
   m_TagString: Untagged
@@ -84,3 +85,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1341079557358526}
   m_Mesh: {fileID: 4300000, guid: 9937825b5ad14f7408fd1922e1e771ca, type: 3}
+--- !u!114 &114275897881584852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341079557358526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c8ef4c28a28464b91049811f9d2c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HoverMaterial: {fileID: 2100000, guid: 26d92f3d95a526b47841a127d4839389, type: 2}
+  m_ClickMaterial: {fileID: 2100000, guid: 83d87c1b26efa3a488cc5e3f3409a481, type: 2}

@@ -70,6 +70,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4061055410262230}
+  - component: {fileID: 114645230996134212}
   m_Layer: 0
   m_Name: SM_ScarH_01
   m_TagString: Untagged
@@ -915,3 +916,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1106307723463018}
   m_Mesh: {fileID: 4300018, guid: 57b6deaec8679c344b3eef9da205f929, type: 3}
+--- !u!114 &114645230996134212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1138168938183512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c8ef4c28a28464b91049811f9d2c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HoverMaterial: {fileID: 2100000, guid: 26d92f3d95a526b47841a127d4839389, type: 2}
+  m_ClickMaterial: {fileID: 2100000, guid: 83d87c1b26efa3a488cc5e3f3409a481, type: 2}
