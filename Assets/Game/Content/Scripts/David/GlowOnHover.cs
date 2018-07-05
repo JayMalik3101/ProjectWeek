@@ -21,11 +21,10 @@ public class GlowOnHover : MonoBehaviour {
 
     private void OnMouseOver()
     {
-        Debug.Log("f dsfa'");
         if (Input.GetMouseButtonDown(0))
         {
             m_ObjectMesh.material = m_ClickMaterial;
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 

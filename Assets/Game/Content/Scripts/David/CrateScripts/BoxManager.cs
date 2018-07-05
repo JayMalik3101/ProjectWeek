@@ -37,7 +37,7 @@ public class BoxManager : MonoBehaviour {
     {
         for (int i = 0; i < m_IsIllegal.Count; i++)
         {
-            if(m_ItemsInCrate[i] != null)
+            if(m_ItemsInCrate[i].activeSelf)
             {
                 m_ItemPassed.Add(true);
             }
@@ -58,6 +58,7 @@ public class BoxManager : MonoBehaviour {
                 Debug.Log("Great job you didnt indirectly participate at murdering people !");
             }
         }
+        Destroy(gameObject);
     }
     
     private void CheckIfIllegal(GameObject currentItem, int itemInList)
