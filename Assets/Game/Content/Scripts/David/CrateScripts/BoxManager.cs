@@ -58,6 +58,7 @@ public class BoxManager : MonoBehaviour {
 
         for (int i = 0; i < m_IsIllegal.Count; i++)
         {
+            Debug.Log(m_ItemsInCrate[i].name);
             if(m_IsIllegal[i] == true && m_ItemPassed[i] == true)
             {
                 m_NewsPaper = Instantiate(m_NewsPaper, new Vector3(1, 1, 3), Quaternion.identity);
@@ -79,7 +80,7 @@ public class BoxManager : MonoBehaviour {
     {
         if(m_CurrentCountry == "Netherlands")
         {
-            if (currentItem.name == "M4" || currentItem.name == "Pistol" || currentItem.name == "Revolver" || currentItem.name == "AK-47" || currentItem.name == "Bomb")
+            if (currentItem.name == "ak-47" || currentItem.name == "Revolver" || currentItem.name == "Scar h" || currentItem.name == "Bomb")
             {
                 m_IsIllegal.Add(true);
             }
@@ -90,7 +91,7 @@ public class BoxManager : MonoBehaviour {
         }
         else
         {
-            if(currentItem.name == "M4" || currentItem.name == "Pistol" || currentItem.name == "Revolver" || currentItem.name == "AK-47" || currentItem.name == "Bomb")
+            if(currentItem.name == "ak-47" || currentItem.name == "Revolver" || currentItem.name == "Scar h" ||  currentItem.name == "Bomb")
             {
                 m_IsIllegal.Add(true);
             }

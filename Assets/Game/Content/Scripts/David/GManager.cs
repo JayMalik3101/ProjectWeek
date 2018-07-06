@@ -8,12 +8,18 @@ public class GManager : MonoBehaviour {
     private Animator m_CurrentCrateAnimator;
     public GameObject m_CurrentCrate;
     private bool m_StartTimer;
-
+    [SerializeField] private List<string> m_SpawnedCrates;
     // Use this for initialization
     void Start () {
+        m_SpawnedCrates = new List<string>();
         m_CurrentCrate = Instantiate(m_Crates[Random.Range(0,m_Crates.Count)], this.transform.position, this.transform.rotation);
         m_CurrentCrateAnimator = m_CurrentCrate.GetComponent<Animator>();
         m_CurrentCrateAnimator.SetTrigger("Activate");
+        m_SpawnedCrates.Add(m_CurrentCrate.name);
+        for (int i = 0; i < m_SpawnedCrates.Count; i++)
+        {
+            Debug.Log(m_SpawnedCrates[i]);
+        }
     }
 	
 	// Update is called once per frame
@@ -23,6 +29,11 @@ public class GManager : MonoBehaviour {
             m_CurrentCrate = Instantiate(m_Crates[Random.Range(0, m_Crates.Count)], this.transform.position, this.transform.rotation);
             m_CurrentCrateAnimator = m_CurrentCrate.GetComponent<Animator>();
             m_CurrentCrateAnimator.SetTrigger("Activate");
+            m_SpawnedCrates.Add(m_CurrentCrate.name);
+            for (int i = 0; i < m_SpawnedCrates.Count; i++)
+            {
+                Debug.Log(m_SpawnedCrates[i]);
+            }
         }
 	}
 }
