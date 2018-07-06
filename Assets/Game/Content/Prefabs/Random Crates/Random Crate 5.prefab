@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc988ba9dc924414e9e2bba4bfc9b765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CurrentCountry: 
+  m_CurrentCountry: Belgium
   m_ItemsInCrate:
   - {fileID: 1094232512466858}
   - {fileID: 1783068395696436}
