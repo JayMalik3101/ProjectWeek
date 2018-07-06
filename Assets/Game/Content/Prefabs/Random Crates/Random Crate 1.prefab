@@ -867,8 +867,8 @@ MonoBehaviour:
   m_ItemsInCrate:
   - {fileID: 1777539437270480}
   - {fileID: 1834870153202786, guid: 3a2a54b002fd1f141bfbca430864ce86, type: 2}
-  - {fileID: 1028813128812782, guid: 5a5dcc2e45f5d564782e23ed16105d66, type: 2}
-  - {fileID: 1103278253083060, guid: cd2ddd9f8595b6c43a8a76d18305dedf, type: 2}
+  - {fileID: 1698477497096650}
+  - {fileID: 1331605321977800}
   - {fileID: 1579225907479086}
   m_OriginalTime: 15
   m_CurrentTime: 0
